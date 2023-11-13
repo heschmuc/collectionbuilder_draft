@@ -1,9 +1,12 @@
 field,display_name,browse_link,external_link
 title,Title,
-creator,Creator,
+author,Author,
 date,Date Created,
-description,Description,
 subject,Subjects,true
+dietary,Dietary,
+servings,Servings,
+ingredients,Ingredients,
+directions,Directions,
 location,Location
 latitude,Latitude
 longitude,Longitude

@@ -31,7 +31,8 @@ This section is about how to add items to this online collection.
 
 {% include feature/nav-menu.html sections="Title Element;ObjectID;Filename;Format;Date;Subject;Author;Servings;Dietary;Ingredients;Directions" %}
 
-  
+<br>
+
 ### Title Element
 
  | Property | Element |
@@ -41,10 +42,11 @@ This section is about how to add items to this online collection.
  | Cardinality | Non-repeatable | 
  | Obligation | Required | 
  | Vocabulary? | N/A | 
- | How to Use | The title of the recipe.  Take from the top of the recipe card. look for centered text, bigger text, or Recipe For… line beginning.  The title of each recipe will have the first letter of each word (except for filler words such as a, the, of, etc., unless these words are the beginning of the recipe) capitalized. | 
+ | How to Use | The title of the recipe. Take from the top of the recipe card. look for centered text, bigger text, or Recipe For… line beginning. The title of each recipe will have the first letter of each word (except for filler words such as a, the, of, etc., unless these words are the beginning of the recipe) capitalized. | 
  | Examples | Chocolate Cake, Divinity Puffs, Lasagna | 
 
-  
+<br>
+
 ### ObjectID
 
  | Property | Element |
@@ -57,7 +59,8 @@ This section is about how to add items to this online collection.
  | How to Use | The id will be made of two parts, the recipe number and the recipe number. The number at the beginning of the id will start at 000 and continue, incrementing by 1 with each recipe. The name will be taken from the title field, with underscores in place of the spaces or filler words, and all lowercase. Special characters from the title, such as dashes, apostrophes, etc. should not be included in the objectid. | 
  | Examples | 000_chocolate_cake, 002_lasagna, …, 031_divinity_puffs, etc. | 
 
-  
+<br>
+
 ### Filename
 
  | Property | Element |
@@ -70,7 +73,8 @@ This section is about how to add items to this online collection.
  | How to Use | This will be the objectid value with the file extension at the end of it. This should exactly match the filename of the object it is associated with. Refer to objectid field for How to Use. | 
  | Examples | 000_chocolate_cake.jpeg, 001_lasagna.tiff, …, 031_divinity_puffs.png, etc. | 
 
-  
+<br>
+
 ### Format
 
  | Property | Element |
@@ -83,7 +87,8 @@ This section is about how to add items to this online collection.
  | How to Use | The object’s type of file. These will be formatted as format/filetype. | 
  | Examples | image/jpeg, image/png, image/gif, etc. | 
 
-  
+<br>
+
 ### Date
 
  | Property | Element |
@@ -96,7 +101,8 @@ This section is about how to add items to this online collection.
  | How to Use | The year the recipe was made, if available. Format as YYYY. | 
  | Examples | 1987, 2001, etc. | 
 
-  
+<br>
+
 ### Subject
 
  | Property | Element |
@@ -109,7 +115,8 @@ This section is about how to add items to this online collection.
  | How to Use | Deciding what the recipe describes (a meal such as lunch, dinner, breakfast; a side, a sauce, dessert, etc.) and using the authority file for the collection to find the related vocabulary. If there are multiple entries, use a semicolon to separate the values. | 
  | Examples | Dinner; Lunch; Dessert | 
 
-   
+<br> 
+
 ### Author
 
  | Property | Element |
@@ -122,7 +129,8 @@ This section is about how to add items to this online collection.
  | How to Use | Use the name attached to the title or within parenthesis to the side if available. Otherwise, if possible, determine based on handwriting which grandparent wrote out the recipe. The author will be entered as ‘Lastname, Firstname’ (where each name is capitalized), unless there is only a first or last name, where it will just be entered as ‘Name’. | 
  | Examples | Novy, Mary Lou; Yhae, Anna; Crocker, Betty | 
 
-  
+<br>
+
 ### Servings 
 
  | Property | Element |
@@ -135,7 +143,8 @@ This section is about how to add items to this online collection.
  | How to Use | Find using text such as Serves: …, Number of Servings: … etc. and then put in the corresponding numbers. If it is one number, use the numerical form (2, 5, etc.). If it is a range, use a dash between the two numerical forms of the numbers, without a space (3-5, 10-15, etc.) | 
  | Examples | 24, 12-15 | 
 
-  
+<br>
+
 ### Dietary
 
  | Property | Element |
@@ -148,7 +157,8 @@ This section is about how to add items to this online collection.
  | How to Use | Look at the ingredients list and list the appropriate vocabulary from the authority file. For example, if there are no meat products, but there are animal products (cheese, eggs, milk, etc.), use the Vegetarian authority file word. If there are fish products, but no other meat products, use the Pescatarian authority file word. If there are no meat or animal products, use the Vegan authority file word. The same goes for food allergies. For a couple examples, if there are no nuts, put ‘No Nuts’ and if there are no gluten products, put ‘No Gluten’. If there is more than one item which applies to the recipe, use a semicolon to separate them. However, if an item is Vegan, you do not have to put Vegetarian as well, as this is implied. | 
  | Examples | Vegan; Gluten Friendly; No Nuts | 
 
-  
+<br>
+
 ### Ingredients
 
  | Property | Element |
@@ -161,7 +171,8 @@ This section is about how to add items to this online collection.
  | How to Use | The transcription of the ingredient part of the recipe. If there are any words which you are unsure of, put wd? in parentheses immediately after the word. If there are any shorthand words to stand in for phrases (ex. soda for baking soda), put the unincluded word(s) in parentheses where they would go by the original word. If there is an abbreviation, put the normal word. If you are not sure what the abbreviation means, look at the Transcription File for the correct word. Enter fractions as number/number (ex. 1/2, 3/4). If there is a number before, put a space between the two numbers for ease of differentiation (ex. 1 1/2 2 1/4). If there is a range for any ingredients, use the - character to show it can be between those two numbers (ex. 1-3, 4-5). Separate the number versus the measurement type versus ingredient with spaces. Separate the ingredients with commas.
 | Examples | 1 egg, 1 cup sugar, 1 tbsp (tablespoon) butter, 2-3 tbsp (tablespoon) cocoa, 1 cup sour milk, 1 tsp (teaspoon) (baking) soda, 1 1/2 cup flour, vanilla | 
 
-  
+<br>
+
 ### Directions
 
  | Property | Element |
@@ -171,7 +182,7 @@ This section is about how to add items to this online collection.
  | Cardinality | Non-repeatable | 
  | Obligation | Required | 
  | Vocabulary? | N/A | 
- | How to Use | The recipe directions. Include all text which comes after the ingredient list.  If there are any words which you are unsure of, put wd? in parentheses immediately after the word. If there are any shorthand words to stand in for phrases (ex. soda for baking soda), put the unincluded word(s) in parentheses where they would go by the original word. | 
+ | How to Use | The recipe directions. Include all text which comes after the ingredient list. If there are any words which you are unsure of, put wd? in parentheses immediately after the word. If there are any shorthand words to stand in for phrases (ex. soda for baking soda), put the unincluded word(s) in parentheses where they would go by the original word. | 
  | Examples | Cream egg and sugar. Melt butter and cocoa together. Add to first mixture. Add (baking) soda to milk and stir in. Then add the flour and vanilla.| 
 
 

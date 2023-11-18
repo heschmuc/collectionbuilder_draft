@@ -1,7 +1,7 @@
 ---
 title: Contributors
 layout: about
-permalink: /contributors.html
+permalink: /contributor.html
 ---
 ## About the Creator:
 Hallie Schmucker is currently a second-year graduate student in the Master of Library Science program at Indiana University. Previously at Indiana University, she got a bachelor’s degree in informatics with a concentration in Environmental Management, and minors in Spanish, Computer Science, and Web Design. This website is the final project for the Fall 2023 class Digital Libraries.

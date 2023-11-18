@@ -26,8 +26,9 @@ This section is about how to add items to this online collection.
 ## Field Formats
 
 ### Title
- | Property | Element | 
- | --- | --- | 
+
+ | Property | Element |
+ | --- | --- |
  | Element Name | title | 
  | Dublin Core Element | Title | 
  | Cardinality | Non-repeatable | 
@@ -37,8 +38,9 @@ This section is about how to add items to this online collection.
  | Examples | Chocolate Cake, Divinity Puffs, Lasagna | 
 
 ### ObjectID
- | Property | Element | 
- | --- | --- | 
+
+ | Property | Element |
+ | --- | --- |
  | Element Name | objectid | 
  | Dublin Core Element | Identifier | 
  | Cardinality | Non-repeatable | 
@@ -48,8 +50,9 @@ This section is about how to add items to this online collection.
  | Examples | 000_chocolate_cake, 002_lasagna, …, 031_divinity_puffs, etc. | 
 
 ### Filename
- | Property | Element | 
- | --- | --- | 
+
+ | Property | Element |
+ | --- | --- |
  | Element Name | filename | 
  | Dublin Core Element | Identifier | 
  | Cardinality | Non-repeatable | 
@@ -59,8 +62,9 @@ This section is about how to add items to this online collection.
  | Examples | 000_chocolate_cake.jpeg, 001_lasagna.tiff, …, 031_divinity_puffs.png, etc. | 
 
 ### Format
- | Property | Element | 
- | --- | --- | 
+
+ | Property | Element |
+ | --- | --- |
  | Element Name | format | 
  | Dublin Core Element | Format | 
  | Cardinality | Non-repeatable | 
@@ -70,8 +74,9 @@ This section is about how to add items to this online collection.
  | Examples | image/jpeg, image/png, image/gif, etc. | 
 
 ### Date
- | Property | Element | 
- | --- | --- | 
+
+ | Property | Element |
+ | --- | --- |
  | Element Name | date | 
  | Dublin Core Element | Date | 
  | Cardinality | 0 to 1 | 
@@ -81,8 +86,9 @@ This section is about how to add items to this online collection.
  | Examples | 1987, 2001, etc. | 
 
 ### Subject
- | Property | Element | 
- | --- | --- | 
+
+ | Property | Element |
+ | --- | --- |
  | Element Name | subject | 
  | Dublin Core Element | Subject | 
  | Cardinality | 0 to 3 | 
@@ -92,8 +98,9 @@ This section is about how to add items to this online collection.
  | Examples | Dinner; Lunch; Dessert | 
  
 ### Author
- | Property | Element | 
- | --- | --- | 
+
+ | Property | Element |
+ | --- | --- |
  | Element Name | author | 
  | Dublin Core Element | Creator | 
  | Cardinality | 0 to 1 | 
@@ -103,8 +110,9 @@ This section is about how to add items to this online collection.
  | Examples | Novy, Mary Lou; Yhae, Anna; Crocker, Betty | 
 
 ### Servings 
- | Property | Element | 
- | --- | --- | 
+
+ | Property | Element |
+ | --- | --- |
  | Element Name | servings | 
  | Dublin Core Element | N/A | 
  | Cardinality | 0 to 1 | 
@@ -114,8 +122,9 @@ This section is about how to add items to this online collection.
  | Examples | 24, 12-15 | 
 
 ### Dietary
- | Property | Element | 
- | --- | --- | 
+
+ | Property | Element |
+ | --- | --- |
  | Element Name | dietary | 
  | Dublin Core Element | Subject | 
  | Cardinality | 0 to 3 | 
@@ -125,8 +134,9 @@ This section is about how to add items to this online collection.
  | Examples | Vegan; Gluten Friendly; No Nuts | 
 
 ### Ingredients
- | Property | Element | 
- | --- | --- | 
+
+ | Property | Element |
+ | --- | --- |
  | Element Name | ingredients | 
  | Dublin Core Element | Description | 
  | Cardinality | Non-repeatable | 
@@ -136,6 +146,7 @@ This section is about how to add items to this online collection.
 | Examples | 1 egg, 1 cup sugar, 1 tbsp (tablespoon) butter, 2-3 tbsp (tablespoon) cocoa, 1 cup sour milk, 1 tsp (teaspoon) (baking) soda, 1 1/2 cup flour, vanilla | 
 
 ### Directions
+
  | Property | Element |
  | --- | --- |
  | Element Name | directions | 

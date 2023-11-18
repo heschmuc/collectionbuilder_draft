@@ -87,7 +87,7 @@ This section is about how to add items to this online collection.
  | Dublin Core Element | Subject | 
  | Cardinality | 0 to 3 | 
  | Obligation | Not Required | 
- | Vocabulary? | Local Authority File | 
+ | Vocabulary? | [Local Authority File](https://heschmuc.github.io/collectionbuilder_final/auth-files.html) | 
  | How to Use | Deciding what the recipe describes (a meal such as lunch, dinner, breakfast; a side, a sauce, dessert, etc.) and using the authority file for the collection to find the related vocabulary.  <br><br>If there are multiple entries, use a semicolon to separate the values. | 
  | Examples | Dinner; Lunch; Dessert | 
  
@@ -120,7 +120,7 @@ This section is about how to add items to this online collection.
  | Dublin Core Element | Subject | 
  | Cardinality | 0 to 3 | 
  | Obligation | Not Required | 
- | Vocabulary? | Local Authority File | 
+ | Vocabulary? | [Local Authority File](https://heschmuc.github.io/collectionbuilder_final/auth-files.html) | 
  | How to Use | Look at the ingredients list and list the appropriate vocabulary from the authority file.  <br><br>For example, if there are no meat products, but there are animal products (cheese, eggs, milk, etc.), use the Vegetarian authority file word. If there are fish products, but no other meat products, use the Pescatarian authority file word. If there are no meat or animal products, use the Vegan authority file word.  <br><br>The same goes for food allergies. For a couple examples, if there are no nuts, put ‘No Nuts’ and if there are no gluten products, put ‘No Gluten’.  <br><br>If there is more than one item which applies to the recipe, use a semicolon to separate them. However, if an item is Vegan, you do not have to put Vegetarian as well, as this is implied. | 
  | Examples | Vegan; Gluten Friendly; No Nuts | 
 

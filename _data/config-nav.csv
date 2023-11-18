@@ -4,5 +4,9 @@ Browse,/browse.html
 Subjects,/subjects.html
 Timeline,/timeline.html
 Data,/data.html
-About,/about.html
-Documentation,/documentation.html
+About,,
+About the Collection,/about.html,About
+About the Contributor,/contributor.html,About
+Documentation,,
+Standards and Metadata,/documentation.html,Documentation
+Local Authority Files,/auth-files.html,Documentation

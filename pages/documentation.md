@@ -65,7 +65,7 @@ This section is about how to add items to this online collection.
  | Dublin Core Element | Format | 
  | Cardinality | Non-repeatable | 
  | Obligation | Required | 
- | Vocabulary? | MME Type Vocabulary | 
+ | Vocabulary? | [MME Type Vocabulary](https://www.iana.org/assignments/media-types/media-types.xhtml) | 
  | How to Use | The object’s type of file. These will be formatted as format/filetype. | 
  | Examples | image/jpeg, image/png, image/gif, etc. | 
 

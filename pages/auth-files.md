@@ -35,21 +35,18 @@ is and a more descriptive portion detailing either when the dish is usually eate
  - Soup
  - Vegetable
 
-Here is a word cloud visualization of the Subjects field. Here you can see how many 
-times each word was used in the metadata.  
-{% include feature/cloud.html fields="subject" min=2 %}
+Here is a word cloud visualization of the Subjects field. Here you can see how many times each word was used in the metadata. You can also view this word cloud on the [Subjects Page](https://heschmuc.github.io/collectionbuilder_final/subjects.html)  
+{% include feature/cloud.html fields="subject" %}
 
 ### Dietary
-This section details the dietary restriction field of the metadata. The following words are used
-to describe the recipe as allergen or diet friendly. 
+This section details the dietary restriction field of the metadata. The following words are used to describe the recipe as allergen or diet friendly.   
 **Allergies**
  - No Gluten
- - No Nuts
+ - No Nuts  
 **Diets**
  - Pescatarian
  - Vegan
  - Vegetarian
 
-Here is a word cloud visualization of the Dietary field. You can see how many times 
-each word was used in the metadata.  
-{% include feature/cloud.html fields="dietary" min=2 %}
+Here is a word cloud visualization of the Dietary field. You can see how many times each word was used in the metadata. You can also view this word cloud on the [Dietary Page](https://heschmuc.github.io/collectionbuilder_final/dietary.html)  
+{% include feature/cloud.html fields="dietary" %}

@@ -11,6 +11,7 @@ the correct section of this page. However, avoid any overlaps and synonyms. Only
 ### Subjects
 The subjects field describes the type of recipe which is written on the card. This includes two sections: the type of dish a recipe
 is and a more descriptive portion detailing either when the dish is usually eaten, or the general type of food it is.  
+
 **Dish Type List**
  - Appetizer
  - Dessert
@@ -39,10 +40,12 @@ Here is a word cloud visualization of the Subjects field. Here you can see how m
 {% include feature/cloud.html fields="subject" %}
 
 ### Dietary
-This section details the dietary restriction field of the metadata. The following words are used to describe the recipe as allergen or diet friendly.   
+This section details the dietary restriction field of the metadata. The following words are used to describe the recipe as allergen or diet friendly. 
+
 **Allergies**
  - No Gluten
- - No Nuts  
+ - No Nuts
+
 **Diets**
  - Pescatarian
  - Vegan

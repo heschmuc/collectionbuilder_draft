@@ -17,11 +17,11 @@ credits: true
 This website is a collection of recipes from my grandparents’ collection, which includes recipes from my mother’s childhood and even some from my great-grandparents. The recipes were written down as early as the 1930s, giving some insight into what life and food was like, especially during the mid-1900s, WWII, and the post-war. Most of the recipes came from my maternal grandparents Mary Lou and Russell Novy, although there are at least a couple from the 1930s which were created, or at least written down, by my great-grandmother, Hallie Garth. There are also some recipes which were written or donated to the collection by other family members or friends. If there's not an author written on the recipe, it means it were probably written down by either of my grandparents or great-grandmother.  
 
 These are dishes that my mother grew up eating, and then passed on her favorites to myself and my sister ([Men’s Garden Club Pancakes](https://heschmuc.github.io/collectionbuilder_final/item.html?id=007_mens_garden_club_pancakes)). 
-{% include feature/pdf.html objectid="007_mens_garden_club_pancakes" %}
+{% include feature/pdf.html objectid="007_mens_garden_club_pancakes" height="600px" %}
 
 Through the selection of people choosing to make and pass on their favorites, there were also quite a few recipes which hadn’t been seen in quite some time, and even some that my mother was unaware of ([Watermelon Pickles](https://heschmuc.github.io/collectionbuilder_final/item.html?id=013_watermelon_pickles)).   
 
-{% include feature/pdf.html objectid="013_watermelon_pickles" %}
+{% include feature/pdf.html objectid="013_watermelon_pickles" height="600px" %}
 
 
 ## Why this Project

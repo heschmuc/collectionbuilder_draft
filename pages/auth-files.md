@@ -54,7 +54,7 @@ Here is a word cloud visualization of the Dietary field. You can see how many ti
 
 ### Shorthand
 This section provides lists of longform words to put into the Ingredients and Directions metadata fields in place of the shorthand terms which are used to save space on the physical recipe card. You can use this section to determine what word to use if there is any confusion.
-Not all recipes have the same shorthand versions. If you come across a new term at any time, add it to this list for future reference.
+Not all recipes have the same shorthand versions. If you come across a new term at any time, add it to this list for future reference.  
 **Teaspoon**
  - t
  - tsp

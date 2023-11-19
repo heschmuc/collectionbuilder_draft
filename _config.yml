@@ -20,12 +20,12 @@ source-code: https://github.com/heschmuc/collectionbuilder_final
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Grandparents' Recipe Collection
+title: Novy Family Recipe Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: Final Project for Digital Libraries ILS-Z 652
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "This is a collection of family recipe cards created in the mid 1900s and passed down through the family."
+description: "This is a collection of family recipe cards created in the mid 1900s and passed down through the Novy family."
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: heschmuc
 
